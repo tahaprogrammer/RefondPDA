@@ -1,0 +1,47 @@
+																		{
+																			"GetListeControleResponse": {
+																				"head": {
+																					"namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+																					"version": "v1",
+																					"returnedLines": "1",
+																					"errorCode": "0",
+																				},
+																				"body": {
+																				   "ControleDTO": [
+																					   {
+																						   "DateControle" :"30-09-2022 10:00" ,
+																						   "NombreControle" : 3,
+																						   "StatutControles" :"succes" ,
+																						   "ListeArreteCaisse" : [
+																							   {
+																								   "ArreteCaisseId" : 5,
+																								   "SessionId" : 45,
+																								   "UtilisateurId" :54,
+																								   
+																							   
+																							   "Utilisateur" : {
+																											"CIN" : "PA69566",
+																											"IsFirstConnexion" : true,
+																											"Password" : "test",
+																											"Fonction" : "Control",
+																											"Matricule" : "CO-659"
+																										},
+																								"NumeroArrete" : 996,
+																								"DateGeneration" : "30-09-2022 10:00",
+																								"MontantCaisse":500,
+																								"MontantVerse" : 500,
+																								"MotifRejetControle" : null,
+																								"MotifRejetRegularisation" : null
+																								}
+																						   ],
+																						   "DayOfMonth": 30,
+																						   "Today" : "30-09-2022 10:00",
+																						   "IsActionEnabled": true, 
+																						   "ActionMessage" : "Vente",
+																						   "StatutComptabilite" :null 
+																						   
+																					   }
+																				   ],
+																				}
+																			}
+																		}

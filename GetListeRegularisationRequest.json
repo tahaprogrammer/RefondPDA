@@ -1,0 +1,16 @@
+																		{
+																			"GetListeRegularisationRequest": {
+																				"head": {
+																					"namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+																					"version": "v1",
+																					"returnedLines": "1",
+																					"errorCode": "0",
+																					"partenaireSubjectName": "CN=PDANEW"
+																				},
+																				"body": {
+																					"Codeutilisateur" :465,
+																					"mois":3,
+																					"isValidationSection":true
+																				}
+																			}
+																		}

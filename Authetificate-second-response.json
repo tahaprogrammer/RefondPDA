@@ -1,0 +1,27 @@
+"head": {
+    "namespace": "Oncf.ma/DataContracts/2019/04/Identity/Gateway",
+    "version": "1.0",
+    "returnedLines": 1,
+    "errorCode": 0,
+    "errorMessage": null
+  },
+  "body": {
+    "adresse": "agadir",
+    "civilite": "1",
+    "codeClient": "044608120",
+    "codePostal": "80000",
+    "dateNaissance": "1900-01-01T00:00:00Z",
+    "email": "FLORENCE33@TENULL.COM",
+    "employeur": "",
+    "nom": "QSDSQ",
+    "nomAffichage": null,
+    "nomAr": "",
+    "pays": "Maroc",
+    "prenom": "QSDQS",
+    "prenomAr": "",
+    "profession": "",
+    "tel": "0619887328",
+    "ville": "Agadir",
+    "login": "Florence33@tenull.com"
+  }
+}

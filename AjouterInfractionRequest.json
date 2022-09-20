@@ -1,0 +1,41 @@
+																		{
+																			"AjouterInfractionRequest": {
+																				"head": {
+																					"namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+																					"version": "v1",
+																					"returnedLines": "1",
+																					"errorCode": "0",
+																					"partenaireSubjectName": "CN=PDANEW"
+																				},
+																				"body": {
+																					"infractionDto" : {
+																						"Nom":"Nom",
+																						"Prenom":"Prenom",
+																						"CIN":"CIN",
+																						"Adresse":"Adresse",
+																						"CodeInfraction":"78b89ba",
+																						"TrainAutocarId":750,
+																						"DateVoyage":"30-09-2022",
+																						"TypeInfractionId":7,
+																						"UniteId":null,
+																						"NombreUnite":null,
+																						"DescriptionInfraction":"DescriptionInfraction",
+																						"DateHeureInfraction":"30-09-2022 10:00",
+																						"SessionId":5,
+																						"Montant":30,
+																						"GareInfractionId":206,
+																						"GareDepartId":206,
+																						"GareArriveeId":200,
+																						"StatutInfractionId":3,
+																						"ModePaimentId":null,
+																						"ParametrageInfractionId":,
+																						"DossierVoyageId":null,
+																						"CodeDossier":"G-65445",
+																						"NiveauConfortId":2,
+																						"MatriculeACT":"564AA",
+																						"NonMuniCIN":true
+																					
+																					}
+																				}
+																			}
+																		}

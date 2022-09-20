@@ -1,0 +1,29 @@
+{
+
+    "head": {
+
+        "namespace": "Oncf.ma/DataContracts/2019/04/Identity/Gateway",
+
+        "version": "1.0",
+
+        "returnedLines": 1,
+
+        "errorCode": 0,
+
+        "errorMessage": null
+
+    },
+
+    "body": {
+
+        "authSuccess": true,
+
+        "needsMigration": false,
+
+        "sourceApplications": null,
+
+        "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJHYXRld2F5SWRlbnRpdHkiLCJzdWIiOiJGbG9yZW5jZTMzQHRlbnVsbC5jb20iLCJhdWQiOm51bGwsImV4cCI6MTY2MzYwNjY2NCwibmJmIjoxNjYzNjA1NDY0LCJpYXQiOjE2NjM2MDU0NjQsImp0aSI6IjRmYTZkOWIwLTgxMjctNDhlMy05ZTQzLTMxNTliNmUxZjk4YSJ9.gGK7m6aNHxU2zUAbKJThCZllITEM3drZaup8EYAAAhnIzKHHx9DWFq2aKxVm7v8VDOfQKl2+RryeMt/EkXdw0hgvz3yCMQRTuCAN6nHcPl4pi8ZtgPrOkp8/arhIpt2iEqryb1BwieHqtWvJzH1uxtD2vNZdXe1SrYcbmdlWA6rUf+j363x26eIcQhxuwNNVqoJBDTanI9IpdU9Lj0Cg2Y1GYVerFjgIy/B9aET/zylvqRasAOW/81C6A4mHhGPDEeuBvDek++RgF+/zjtciZqi5vpUcFEy+imYl2y/Jcb+curVWvCHLshuV80/rltn5M/FWq/7R96pVtcYkPY94Pg=="
+
+    }
+
+}

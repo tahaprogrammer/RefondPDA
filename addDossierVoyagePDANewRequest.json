@@ -1,0 +1,130 @@
+
+																			{
+																			"addDossierVoyagePDANewRequest": {
+																				"head": {
+																					"namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+																					"returnedLines": 6,
+																					"version": "v1",
+																					"partenaireSubjectName": "CN-PDANEW"
+																				},
+																				"body": {
+																					"TypeOperationVente" : 1,
+																					"DateCreation" : "16/09/2022",
+																					"DateExpiration" : "16/09/2025",
+																					"DatePaiement" : "16/09/2022",
+																					"IsPaiement" : true , 
+																					"MontantTotal" : 556,
+																					"NombreVoyageurs" :1,
+																					"TrajetAller" : {
+																						"DateHeureDepart" : "16-09-2022T09:00:00+01:00",
+																						"DateHeureArrivee" : "16-09-2022T12:00:00+01:00",
+																						"codeGareOrigine" : 191,
+																						"codeGareDestination" : 206,
+																						"codeLiaison" : 55,
+																						"Segments" : [
+																							{
+																							  
+																							  "GareDepart" : 191,
+																							  "GareArrivee" : 200,
+																							  "DateHeureDepart" :"16-09-2022T09:00:00+01:00",
+																							  "DateHeureArrivee" : "16-09-2022T11:00:00+01:00",
+																							  "Ordre" : 1,
+																							  "DateCirculation": "16-09-2022",
+																							  "Classification" : 1,
+																							  "ClassificationGamme" : 55,
+																							  "ClassificationCodeGamme" : "EJ",
+																							  "ClassificationDesignationGamme" : "TNR",
+																							  "codeRegulation" : 1,
+																							  "CodeTrainAutocar" : 775,
+																							  "TrainNumeroCommercial" : "802",
+																							  "codeLiaison" : 156,
+																							  "ClassePhysique" : 2,
+																							  "NiveauConfort" : 2
+																							},
+																							{
+																							  
+																							  "GareDepart" : 200,
+																							  "GareArrivee" : 206,
+																							  "DateHeureDepart" :"16-09-2022T11:00:00+01:00",
+																							  "DateHeureArrivee" : "16-09-2022T12:00:00+01:00",
+																							  "Ordre" : 2,
+																							  "DateCirculation": "16-09-2022",
+																							  "Classification" : 1,
+																							  "ClassificationGamme" : 55,
+																							  "ClassificationCodeGamme" : "EJ",
+																							  "ClassificationDesignationGamme" : "TNR",
+																							  "codeRegulation" : 1,
+																							  "codeTrainAutocar" : 707,
+																							  "TrainNumeroCommercial" : "803",
+																							  "codeLiaison" : 169,
+																							  "ClassePhysique" : 2,
+																							  "NiveauConfort" : 2
+																							}
+																						],
+																						"Voyageurs" : [
+																							{
+																							  "refNavigationSegment" : 5,
+																							  "codeprofilDemographique" : 3,
+																							  "codeTarifRevendique" : null,
+																							  "IsEmissionEmail" : true,
+																							  "IsEmissionSMS" : false,
+																							  "NumeroBillet" : "556556266",
+																							  "IsBilletPrinted" : true,
+																							  "DatePaiement1" : "16-09-2022T09:00:00+01:00"
+																							  "MontantTotalPaiement1" : "300",
+																							  "ModePaiement1" :1,
+																							  "DatePaiement2" : null,
+																							  "MontantTotalPaiement2" : null,
+																							  "ModePaiement2":null
+																							},
+																							{
+																							  "refNavigationSegment" : 6,
+																							  "codeprofilDemographique" : 3,
+																							  "codeTarifRevendique" : null,
+																							  "IsEmissionEmail" : true,
+																							  "IsEmissionSMS" : false,
+																							  "NumeroBillet" : "556556267",
+																							  "IsBilletPrinted" : true,
+																							  "DatePaiement1" : "16-09-2022T11:00:00+01:00"
+																							  "MontantTotalPaiement1" : "256",
+																							  "ModePaiement1" :1,
+																							  "DatePaiement2" : null,
+																							  "MontantTotalPaiement2" : null,
+																							  "ModePaiement2":null
+																							}
+																						],
+																						"VoyageurSegments" : [
+																							{
+																							  
+																							  "refNavigationSegment" : 1,
+																							  "BaremeId" : 1,
+																							  "NiveauPrix":2976,
+																							  "codePrix" : "GF05",
+																							  "codeTarif" : "GF",
+																							  "Prix" : 556,
+																							  "PrixServices" : null,
+																							  "NumeroVoiture" : 24,
+																							  "NumeroCompartiment" : null,
+																							  "NumeroPlace" : 55
+																							},
+																							{
+																							  
+																							  "refNavigationSegment" : 1,
+																							  "BaremeId" : 1,
+																							  "NiveauPrix":2976,
+																							  "codePrix" : "GF05",
+																							  "codeTarif" : "GF",
+																							  "Prix" : 556,
+																							  "PrixServices" : null,
+																							  "NumeroVoiture" : 21,
+																							  "NumeroCompartiment" : null,
+																							  "NumeroPlace" : 106
+																							}
+																						]
+																					},
+																					"TrajetRetour" : null,
+																					"IsAllerRetour" : false
+																					
+																				}
+																			}
+																		}

@@ -1,0 +1,16 @@
+																		{
+																			"AjouterInfractionResponse": {
+																				"head": {
+																					"namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+																					"version": "v1",
+																					"returnedLines": "1",
+																					"errorCode": "0",
+																				},
+																				"body": {
+																				   "InfractionPdaDTO": {
+																					   "InfractionId":879,
+																					   "CodeInfraction":"INFRAC-789465"
+																				   }
+																				}
+																			}
+																		}

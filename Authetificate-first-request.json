@@ -1,0 +1,25 @@
+{
+
+    "head": {
+
+        "namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+
+        "version": "v1",
+
+        "partenaireSubjectName": "CN=PPRWEBSUPRATOURS"
+
+    },
+
+    "body": {
+
+        "login": "Florence33@tenull.com",
+
+        "pwd": "aa11@@",
+
+        "includeProfile": true,
+
+        "unlockUrl": "https://pprwebsupratours/deblocage-compte"
+
+    }
+
+}

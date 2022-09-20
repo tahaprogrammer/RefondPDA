@@ -1,0 +1,17 @@
+{
+																			"AnnulationPDARequest": {
+																				"head": {
+																					"namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+																					"version": "v1",
+																					"returnedLines": "1",
+																					"errorCode": "0",
+																					"partenaireSubjectName": "CN=PDANEW"
+																				},
+																				"body": {
+																					"numBilletAnnule" : "b-8894",
+																					"numBilletAnnulation":"b-9856",
+																					"sessionId":465,
+																					"DateOperation":"19-09-2022",
+																				}
+																			}
+																		}

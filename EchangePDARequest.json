@@ -1,0 +1,573 @@
+																			{
+																			"EchangePDARequest": {
+																				"head": {
+																					"namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+																					"returnedLines": 6,
+																					"version": "v1",
+																					"partenaireSubjectName": "CN-PDANEW"
+																				},
+																			"body": 
+																				 {
+																					"DossierVoyageDTO" : {
+																						"TrajetAller" : {
+																							"Origine" :{
+																								"GareId": 15665,
+																								"codeGarePrincipale" : null,
+																								"Zone" : null,
+																								"codeVille" : 102,
+																								"EtablissementId" : null,
+																								"CodeGare" : 206,
+																								"codeReseau" : 256,
+																								"Description" : "GARE CASA Voyageurs"
+																								"Latitude" : 2000,
+																								"Longitude" : 1500,
+																								"DesignationAr" : "null",
+																								"DesignationFr" : "CASA Voyageurs",
+																								"DesignationEn" : "CASA Voyageurs",
+																								"WilayaId" : null,
+																								"wilaya" : null,
+																								"codeTypeGare" : 1,
+																								"IsActive" : true,
+																								"IsRevendicable" : true,
+																								"IdentifiantSP" : "test",
+																								"IsGareCorrespondanceDeleted" : false,
+																								"codeOldRegulation" : 569
+																							} ,
+																							"Destination" :{
+																								"GareId": 15666,
+																								"codeGarePrincipale" : null,
+																								"Zone" : null,
+																								"codeVille" : 102,
+																								"EtablissementId" : null,
+																								"CodeGare" : 200,
+																								"codeReseau" : 256,
+																								"Description" : "GARE CASA PORT"
+																								"Latitude" : 2000,
+																								"Longitude" : 1500,
+																								"DesignationAr" : "null",
+																								"DesignationFr" : "CASA PORT",
+																								"DesignationEn" : "CASA PORT",
+																								"WilayaId" : null,
+																								"wilaya" : null,
+																								"codeTypeGare" : 1,
+																								"IsActive" : true,
+																								"IsRevendicable" : true,
+																								"IdentifiantSP" : "test",
+																								"IsGareCorrespondanceDeleted" : false,
+																								"codeOldRegulation" : 570
+																							} ,
+																							"Liaison" : {
+																								"codeLiaison" : 123,
+																								"AxeId" : 5,
+																								"ProduitId" : null,
+																								"Distance" : null,
+																								"codeGareDepar" : 15665,
+																								"codeGareArrivee" : 15666,
+																								"IsContigues" : false,
+																								"OldcodeLiaison" : null,
+																							},
+																							"PrixFlexible" : {
+																								"Montant" : 20,
+																								"Flexibilite" : 2,
+																								"ListPrix" : [{
+																									"IdTraitement": 1 ,
+																									"VoyageurId" : 253,
+																									"Tarif" : {
+																										"TarifId" : 5663,
+																										"Code" : "GF",
+																										"DesignationFr" : "null",
+																										"DesignationAr" :"null",
+																										"IsInclusionLiaison" : false,
+																										"DesignationEn" : "null",
+																										"IsPrixMasque" : false,
+																										"DistanceMax" : null,
+																										"DistanceMin" : null,
+																										"codeTypeTarif" : 1,
+																										"PourcentageAcompte" : null,
+																										"EmissionCollectiveUniquement" : false,
+																										"ConditionAllerRetour" : false,
+																										"DureeMinSejour" : null,
+																										"DureeMaxSejour" : null,
+																										"NombreAccompagnant" : null,
+																										"ListeCarte" : null,
+																										"DateDebutCirculation" : "16-09-2022 09:00",
+																										"DateFinCirculation" : "16-09-2022 23:00",
+																										"DateDebutVente" : "16-09-2022 07:00",
+																										"DateFinVente" : "16-09-2022 23:00",
+																										"IsTarifPrims": false,
+																										"PriseOptionAutorise":false,
+																										"DureeValiditeBillet" : null,
+																										"TouteLiaison" : true,
+																										"RemboursableParAvoir" : false,
+																										"DescriptionFr" : "DescriptionFr",
+																										"DescriptionAr" :"DescriptionAr",
+																										"DescriptionEn" : "DescriptionEn",
+																										"ConventionId" : null,
+																										"FamilleTarifaireId" : null,
+																										"SegmentMarcheId" : null,
+																										"SelonModePaiementInitial" : true,
+																										"TypeRevendicationId" : 2,
+																										"CarteId" : null,
+																										"IsAdulteEgaleDeuxEnfant" : null,
+																										"IsRegularisationBaremeB" : false,
+																										"IsRegularisationBaremeA" : false,
+																										"StatutValidationId" : null,
+																										"StatutValidation" : null,
+																										"NombreUtilisation" : null,
+																										"UniteUtilisationTarif" : null,
+																										"UniteUtilisationTarifId" : null
+																									},
+																									"ClasseControle" : {
+																										"ClasseControleId" :2,
+																										"Designation" :"Designation",
+																										"ParentId" : null,
+																										"ClassePhysique" :2
+																									},
+																									"NiveauPrix" : {
+																										"NiveauPrix" : 21,
+																										"Flexibilite" : {
+																											"Flexibilite" : 2,
+																											"Designation": "SEMI-FLEX",
+																											"DescriptionFR":"DescriptionFR",
+																											"DescriptionAR":"DescriptionAR"
+																										},
+																										"TarifId" : 5663,
+																										"Code" : "GF05"
+																									},
+																									"IsSelected" : true,
+																									"Disponibilite" : 33,
+																									"Prix" : 20,
+																									"Voyageur" : {
+																										"nom": null,
+																										"prenom": null,
+																										"nomAr": null,
+																										"prenomAr": null,
+																										"numeroClient": null,
+																										"tarifRevendique": null,
+																										"codeProfilDemographique": "3",
+																										"NumeroBenificiare" : null,
+																										"NumeroCarte" : null,
+																										"prixSegments": [
+																											{
+																												"tarif": {
+																													"codeTarif": "GF",
+																													"tarifId": "435"
+																												},
+																												"niveauPrix": {
+																													"niveauPrixId": 2976,
+																													"code": "GF05"
+																												},
+																												"ClasseControle" : {
+																													"ClasseControleId" :2,
+																													"Designation" :"Designation",
+																													"ParentId" : null,
+																													"ClassePhysique" :2
+																												},
+																												"prix": 20,
+																												"segment": {
+																													"codeNiveauConfort": "2",
+																													"codeNiveauConfortSup": "1",
+																													"jourApres": null,
+																													"codeRegulation": "446089",
+																													"jourAvant": null,
+																													"codeTrainAutocar": "707",
+																													"numeroCommercial": "802",
+																													"codeLiaison": "14331",
+																													"durationSegment": "00:00:00",
+																													"dateCirculation": "2022-09-30T00:00:00+01:00",
+																													"hasPlacement": false,
+																													"hasPlacementSup": false,
+																													"dateHeureDepart": "2022-09-30T07:53:00+01:00",
+																													"dateHeureArrivee": "2022-09-30T08:04:00+01:00",
+																													"codeGareDepart": "200",
+																													"codeClassification": "EJ",
+																													"codeGamme": "48",
+																													"order": "1",
+																													"codeGareArrivee": "206"
+																												},
+																												"isDecrementationLitSingle": false,
+																												"toolTipConditionVenteApresVente": " Grand Public GF05",
+																												"baremeId": "1",
+																												"disponibilite": 170,
+																												"NumeroVoiture" : 25,
+																												"NumeroPlace" : 105,
+																												"IsEchangeable" : false,
+																											}
+																											],
+																											"PrixSegmentSuperieur" : [{
+																												"tarif": {
+																												"codeTarif": "GF",
+																												"tarifId": "435"
+																											},
+																											"niveauPrix": {
+																												"niveauPrixId": 2972,
+																												"code": "GF01"
+																											},
+																											"prix": 20,
+																											"segment": {
+																												"codeNiveauConfort": "2",
+																												"codeNiveauConfortSup": "1",
+																												"jourApres": null,
+																												"codeRegulation": "446089",
+																												"jourAvant": null,
+																												"codeTrainAutocar": "707",
+																												"numeroCommercial": "802",
+																												"codeLiaison": "14331",
+																												"durationSegment": "00:00:00",
+																												"dateCirculation": "2022-09-30T00:00:00+01:00",
+																												"hasPlacement": false,
+																												"hasPlacementSup": false,
+																												"dateHeureDepart": "2022-09-30T07:53:00+01:00",
+																												"dateHeureArrivee": "2022-09-30T08:04:00+01:00",
+																												"codeGareDepart": "200",
+																												"codeClassification": "EJ",
+																												"codeGamme": "48",
+																												"order": "1",
+																												"codeGareArrivee": "206"
+																											},
+																											"isDecrementationLitSingle": false,
+																											"toolTipConditionVenteApresVente": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+																											"baremeId": "0",
+																											"disponibilite": 30
+																											}],
+																											"Voyageur" : {},
+																											"email": null,
+																											"telephone": null,
+																											"dateNaissance": "0001-01-01T00:00:00+00:00",
+																											
+																									},
+																									"Segment" : {
+																										        "codeNiveauConfort": "2",
+																												"codeNiveauConfortSup": "1",
+																												"jourApres": null,
+																												"codeRegulation": "447160",
+																												"jourAvant": null,
+																												"codeTrainAutocar": "633",
+																												"numeroCommercial": "112",
+																												"codeLiaison": "17776",
+																												"durationSegment": "00:50:00",
+																												"dateCirculation": "2022-09-25T00:00:00+01:00",
+																												"hasPlacement": false,
+																												"hasPlacementSup": false,
+																												"dateHeureDepart": "2022-09-25T10:40:00+01:00",
+																												"dateHeureArrivee": "2022-09-25T11:30:00+01:00",
+																												"codeGareDepart": "229",
+																												"codeClassification": "KF",
+																												"codeGamme": "58",
+																												"order": "1",
+																												"codeGareArrivee": "200",
+																												"GareDepart": {
+																													"codeGare": "229",
+																													"descriptionFr": "RABAT AGDAL",
+																													"descriptionAr": "الرباط أكدال",
+																													"descriptionEn": null,
+																													"isActive": true,
+																													"isRevendicable": true,
+																													"latitude": null,
+																													"longitude": null,
+																													"codeReseau": null,
+																													"codeVille": "39",
+																													"isOncf": true,
+																													"isMarketPlace": false,
+																													"ville": null
+																												},
+																												"GareArrivee": {
+																													"codeGare": "200",
+																													"descriptionFr": "CASA VOYAGEURS",
+																													"descriptionAr": "الدار البيضاء المسافرون",
+																													"descriptionEn": null,
+																													"isActive": true,
+																													"isRevendicable": true,
+																													"latitude": null,
+																													"longitude": null,
+																													"codeReseau": null,
+																													"codeVille": "33",
+																													"isOncf": true,
+																													"isMarketPlace": false,
+																													"ville": null
+																												}
+																									}
+																									
+																								}],
+																								"ClassePhysiques" : [{
+																									
+																								}],
+																								"FlexibiliteColor" : 2,
+																								"NumeroTrajet":1,
+																								"IsActiveSgment" : true,
+																								"NumeroVoiture" : 25,
+																								"NumeroPlace" : 105
+																							}
+																							"FirstSegmentToAffiche" : {},
+																							"ListeSegmentsToAffiche" : [{
+																								                    {
+																													"codeNiveauConfort": "2",
+																													"codeNiveauConfortSup": "1",
+																													"jourApres": null,
+																													"codeRegulation": "447160",
+																													"jourAvant": null,
+																													"codeTrainAutocar": "633",
+																													"numeroCommercial": "112",
+																													"codeLiaison": "17776",
+																													"durationSegment": "00:50:00",
+																													"dateCirculation": "2022-09-25T00:00:00+01:00",
+																													"hasPlacement": false,
+																													"hasPlacementSup": false,
+																													"dateHeureDepart": "2022-09-25T10:40:00+01:00",
+																													"dateHeureArrivee": "2022-09-25T11:30:00+01:00",
+																													"codeGareDepart": "229",
+																													"codeClassification": "KF",
+																													"codeGamme": "58",
+																													"order": "1",
+																													"codeGareArrivee": "200",
+																													"GareDepart": {
+																														"codeGare": "229",
+																														"descriptionFr": "RABAT AGDAL",
+																														"descriptionAr": "الرباط أكدال",
+																														"descriptionEn": null,
+																														"isActive": true,
+																														"isRevendicable": true,
+																														"latitude": null,
+																														"longitude": null,
+																														"codeReseau": null,
+																														"codeVille": "39",
+																														"isOncf": true,
+																														"isMarketPlace": false,
+																														"ville": null
+																													},
+																													"GareArrivee": {
+																														"codeGare": "200",
+																														"descriptionFr": "CASA VOYAGEURS",
+																														"descriptionAr": "الدار البيضاء المسافرون",
+																														"descriptionEn": null,
+																														"isActive": true,
+																														"isRevendicable": true,
+																														"latitude": null,
+																														"longitude": null,
+																														"codeReseau": null,
+																														"codeVille": "33",
+																														"isOncf": true,
+																														"isMarketPlace": false,
+																														"ville": null
+																													}
+																												}
+																										    "typeFlexibilite": "1",
+																											"prixTrajetNonFlexible": null,
+																											"prixTrajetSemiFlexible": null,
+																											 "prixTrajetFlexible": {
+																													"montant": 40,
+																													"listPrix": [
+																														{
+																															"tarif": {
+																																"codeTarif": "GF",
+																																"tarifId": "435"
+																															},
+																															"niveauPrix": {
+																																"niveauPrixId": 2976,
+																																"code": "GF05"
+																															},
+																															"prix": 40,
+																															"segment": {
+																																"codeNiveauConfort": "2",
+																																"codeNiveauConfortSup": "1",
+																																"jourApres": null,
+																																"codeRegulation": "447136",
+																																"jourAvant": null,
+																																"codeTrainAutocar": "622",
+																																"numeroCommercial": "10",
+																																"codeLiaison": "17829",
+																																"durationSegment": "00:00:00",
+																																"dateCirculation": "2022-09-30T00:00:00+01:00",
+																																"hasPlacement": false,
+																																"hasPlacementSup": false,
+																																"dateHeureDepart": "2022-09-30T08:42:00+01:00",
+																																"dateHeureArrivee": "2022-09-30T09:43:00+01:00",
+																																"codeGareDepart": "231",
+																																"codeClassification": "TNR",
+																																"codeGamme": "48",
+																																"order": "1",
+																																"codeGareArrivee": "206"
+																															},
+																															"isDecrementationLitSingle": false,
+																															"toolTipConditionVenteApresVente": " Grand Public GF05",
+																															"baremeId": "1",
+																															"disponibilite": null
+																														}
+																													]
+																												},
+																												"prixTrajetSuperieurFlexible": {
+																													"montant": 70,
+																													"listPrix": [
+																														{
+																															"tarif": {
+																																"codeTarif": "GF",
+																																"tarifId": "435"
+																															},
+																															"niveauPrix": {
+																																"niveauPrixId": 2972,
+																																"code": "GF01"
+																															},
+																															"prix": 70,
+																															"segment": {
+																																"codeNiveauConfort": "2",
+																																"codeNiveauConfortSup": "1",
+																																"jourApres": null,
+																																"codeRegulation": "447136",
+																																"jourAvant": null,
+																																"codeTrainAutocar": "622",
+																																"numeroCommercial": "10",
+																																"codeLiaison": "17829",
+																																"durationSegment": "00:00:00",
+																																"dateCirculation": "2022-09-30T00:00:00+01:00",
+																																"hasPlacement": false,
+																																"hasPlacementSup": false,
+																																"dateHeureDepart": "2022-09-30T08:42:00+01:00",
+																																"dateHeureArrivee": "2022-09-30T09:43:00+01:00",
+																																"codeGareDepart": "231",
+																																"codeClassification": "TNR",
+																																"codeGamme": "48",
+																																"order": "1",
+																																"codeGareArrivee": "206"
+																															},
+																															"isDecrementationLitSingle": false,
+																															"toolTipConditionVenteApresVente": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+																															"baremeId": "1",
+																															"disponibilite": null
+																														}
+																													]
+																												},
+																												"prixTrajetNonFlexibleSup": null,
+																												"prixTrajetSemiFlexibleSup": null,
+																												"typeVente": "1"
+																							}],
+																						},
+																						"TrajetRetour" : null,
+																						"DossierVoyage" : {
+																							"Code" : "GF-5698",
+																							"DateCreation" : "19-09-2022 10:00",
+																							"DateExpiration" : "19-09-2022 12:00",
+																							"DatePaiement" : "19-09-2022 10:00",
+																							"DossierVoyageId" : 265	
+																						},
+																						"DossierVoyageRef" : null,
+																						"IsEchangeable" : false,
+																						"IsAnnulable" : false,
+																						"IsRemboursable" : false,
+																						"IsEchangeableGuichet" : false,
+																						"IsRemboursableGuichet" : false,
+																						"TypeDossier" : "voyage",
+																						"TypeOperation" : 1,
+																						"TypeCompensation" : 3,
+																						"ElementToEchange" : 3,
+																						"IdElementToEchange" : 0,
+																						"IsAllerToEchange" : false,
+																						"HistoriqueOperations" : [{
+																							"DateOperation" : null,
+																							"Voyageur" : null,
+																							"PosteVente" : null,
+																							"Vendeur" : null,
+																							"TypeOperation" : null,
+																							"VoyageurId" : null,
+																							"TrajetAller" : null,
+																							"TrajetRetour" : null
+																						}],
+																						"FraisDossier" : 250.26,
+																						"IsHomogene" : false,
+																						"GroupeVoyageur" : null,
+																						"Avoirs" : null,
+																						"NumeroVoiture" : 26,
+																						"IsBrokenGroup" : false,
+																						"Acheteur" : {
+																							"VilleSaisie" : "RABAT",
+																							"ClientIndividuelId" : 456,
+																							"NomAr" : "NomAr",
+																							"PrenomAr" : "NomAr",
+																							"NomFr" : "NomFr",
+																							"PrenomFr" : "NomAr",
+																							"Profession" : null,
+																							"Employeur" : null,
+																							"CiviliteId" : 1
+																							
+																						},
+																						"Matricule" : "569-93",
+																						"GareEmissionFr" : "CASA PORT",
+																						"GareEmissionAr" : "",
+																						"StatutDossierVoyageId" : null,
+																						"IsAnnulation" : false,
+																						"IsCompensation" : false,
+																						"IsAllerRetourToEchange" : false,
+																						"IdsElementToEchange" : null,
+																						"IsConfirmOptionExpired" : false,
+																						"IsForFinalisation" : true,
+																						"IsFinalisationAnnulation" : false,
+																						"IsFinalisationEchange" : false,
+																						"IsFromFinalisationAV" : false,
+																						"MontantOption" : null,
+																						"MontantConfirmationOption" : null,
+																						"PrixForfaitaire" : null,
+																						"IsCompensationEchange" : false,
+																						"ListeEchange" : null,
+																						"ListeRemboursementSegmentVoyageur" : null,
+																						"ListeRemboursement" : null,
+																						"HasDemandeGrandGroupe" : false
+																					},
+																					
+																					"typeOperation" : 1,
+																					"sessionId" : "",
+																					"posteVente" : {
+																						"PosteVenteId":65,
+																						"Description":"",
+																						"Designation" :"Designation",
+																						"MatriculePoste" : "MatriculePoste",
+																						"DateDebutActivation" :"19-06-2020",
+																						"DateFinActivation" : "19-06-2030",
+																						"PointVenteId" : 15,
+																						"CanalDistributionId" : 666,
+																						"NumeroEmetteur" : null
+																					},
+																					"user" : {
+																						"CIN" : "PA69566",
+																						"IsFirstConnexion" : true,
+																						"Password" : "test"
+																					},
+																					"listePrixSegment" :[  {
+																						"tarif": {
+																							"codeTarif": "GF",
+																							"tarifId": "435"
+																						},
+																						"niveauPrix": {
+																							"niveauPrixId": 2976,
+																							"code": "GF05"
+																						},
+																						"prix": 40,
+																						"segment": {
+																							"codeNiveauConfort": "2",
+																							"codeNiveauConfortSup": "1",
+																							"jourApres": null,
+																							"codeRegulation": "446996",
+																							"jourAvant": null,
+																							"codeTrainAutocar": "669",
+																							"numeroCommercial": "12",
+																							"codeLiaison": "17829",
+																							"durationSegment": "00:00:00",
+																							"dateCirculation": "2022-09-30T00:00:00+01:00",
+																							"hasPlacement": false,
+																							"hasPlacementSup": false,
+																							"dateHeureDepart": "2022-09-30T09:05:00+01:00",
+																							"dateHeureArrivee": "2022-09-30T10:10:00+01:00",
+																							"codeGareDepart": "231",
+																							"codeClassification": "TNR",
+																							"codeGamme": "48",
+																							"order": "1",
+																							"codeGareArrivee": "206"
+																						},
+																						"isDecrementationLitSingle": false,
+																						"toolTipConditionVenteApresVente": " Grand Public GF05",
+																						"baremeId": "1",
+																						"disponibilite": 338
+																					}],
+																					"numeroBilletEchange" : null,
+																					"codeDossier" : null
+																				 }
+																			   }
+																			} 

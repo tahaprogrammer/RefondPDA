@@ -1,0 +1,10 @@
+"head": {
+    "namespace": "oncf.ma/OperationContracts/2019/04/Ecommerce/Gateway/v1",
+    "version": "v1",
+    "partenaireSubjectName": "CN=PPRWEBSUPRATOURS"
+  },
+  "body": {
+    "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJHYXRld2F5SWRlbnRpdHkiLCJzdWIiOiJGbG9yZW5jZTMzQHRlbnVsbC5jb20iLCJhdWQiOm51bGwsImV4cCI6MTY2MzYwNjMwNiwibmJmIjoxNjYzNjA1MTA2LCJpYXQiOjE2NjM2MDUxMDYsImp0aSI6IjFlM2I1YzllLTBhMTMtNDhlMS1hYmFlLTZhMzA4OGUyNTA3ZiJ9.BS9AydFR7hMUZmBdF91DIEuaHPAurIdtfFfVmmkN+EAXehxLj+xRTLamLmG4eyWSl7ljCYykYuZAxzpK1XxFlLjPBZnsu95QDfvk+eahbfNq2zXiZR7zKrKFkvuk6LAPwPEdOVQZCV2pMYV+1YktwRpKeg8J9LrpVVYkMKofJ7aEoeyIKqXGkEBuP2zrVE+aba2cZkGhMklVO2VuspscjV6Hz7gaHqAtRMLhWVD7Ysf8eT3pGsnXPSeKAhOEm28hxo2+jZ0mv9YlHwRlD9dHiCHMEbbvBS+mVV3EK16NYJdBQZ5w76HEWlkJWUVuCM8WJVQvF+YLhrpgshPXUJGkXA==",
+    "login": "Florence33@tenull.com"
+  }
+}
